@@ -1,4 +1,4 @@
-# Kód pro zpracování soutěží
+# [Kód pro zpracování soutěží](https://github.com/ErrorCZE/StreamerBot---Kody/blob/main/Sout%C4%9B%C5%BE)
 - Přes příkaz/twitch odměnu/dle vašeho triggeru zapíše po vyzvednutí uživatele do souboru (cestu k souboru si určujete vy)
 - Přes příkaz !přihlášení/prihlaseni/... (můžete změnit) to vypíše seznam registrovaných lidí (z dokumentu)
 - Do dokumentu se ukládá twitch jméno a twitch id ve formátu `id,jméno`
