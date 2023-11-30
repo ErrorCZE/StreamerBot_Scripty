@@ -25,7 +25,7 @@
 - Aktuálně nastaveno na "Přežiju?"
 - Možné odpovědi: Ano/Ne
 
-# [Kód pro ovládání Tapo led pásku L900](https://github.com/ErrorCZE/StreamerBot---Kody/blob/main/TAPO%20L900%20Ovl%C3%A1d%C3%A1n%C3%AD)
+# [Kód pro ovládání Tapo led pásku L900](https://github.com/ErrorCZE/StreamerBot---Kody/tree/main/L900%20Ovl%C3%A1d%C3%A1n%C3%AD)
 ### POUZE JAKO TWITCH ODMĚNY ZA BODY
 **Případné ovládání přes příkazy atd, si musíte udělat ručně s využitím dostupných akcí napsaných níže**
 
