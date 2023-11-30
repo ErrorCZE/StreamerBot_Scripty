@@ -12,9 +12,43 @@
 - Při vytváření oznámí do chatu, že vytváří klip a jméno, kdo zadal příkaz pro vytvoření
 - Po vytvoření se odešle do chatu zpráva s odkazem na klip a jménem, kdo ho dal vytvořit. Zároveň se to přes webhook odešle na váš discord
 
+
 # [Kód pro info o zbývajícím cooldownu na příkaz](https://github.com/ErrorCZE/StreamerBot---Kody/blob/main/Cooldown%20info)
 - Přidáte si do triggerů jednotlivé Command cooldowny u kterých chcete, aby to oznamovalo info o cooldownu
 - Formát zpráv:
 `@Jméno, zbývající globální cooldown: 1d 3h 46m 35s`
 `@Jméno, tvůj zbývající cooldown: 46m 35s`
 (nepíše to 0d 0m atd... nepíše to jednotky, které jsou 0)
+
+
+# [Kód pro vytvoření předpovědi a vyhodnocení](https://github.com/ErrorCZE/StreamerBot---Kody/blob/main/P%C5%99edpov%C4%9B%C4%8F%20Ano-Ne)
+- Aktuálně nastaveno na "Přežiju?"
+- Možné odpovědi: Ano/Ne
+
+# [Kód pro ovládání Tapo led pásku L900](https://github.com/ErrorCZE/StreamerBot---Kody/blob/main/TAPO%20L900%20Ovl%C3%A1d%C3%A1n%C3%AD)
+### POUZE JAKO TWITCH ODMĚNY ZA BODY
+**Případné ovládání přes příkazy atd, si musíte udělat ručně s využitím dostupných akcí napsaných níže**
+
+Spouští se .exe soubor, do soubor .txt se stejným názvem jako je .exe vložte údaje
+(.exe jde nakopírovat s jinýma názvama a použít na několik zařízeních... Takže např. svetla1.exe + svetla1.txt; svetla2.exe + svetla2.txt)
+
+Ve streamer botovi nastavte cestu k .exe souboru a cestu do složky, kde tento .exe je. (U všech akcí)
+
+Pro odměny, které nastavují nějaké hodnoty (barva přes hex a světlost) nastavte možnost psaní
+
+Hodnoty pro světlost jsou 1 až 100
+Barva se zadává pomocí hex kodu např. #0166FG (barva neovlivňuje světlost, musí se nastavit zvlášť)
+
+Při nedodržení podmínek to vrátí body
+
+**Dostupné akce:**
+- setcolor
+- setbrightness
+- turnon
+- turnoff
+
+**Příklady pro použití mimo streamer bota:**
+- -a setcolor -c `"hue:saturation"` -n
+- -a setbrightness -b `hodnota` -n
+- -a turnoff -n
+- -a turnon
