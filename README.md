@@ -1,4 +1,4 @@
-# [Kód pro zpracování soutěží](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Sout%C4%9B%C5%BE)
+# [Kód pro zpracování soutěží](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Sout%C4%9B%C5%BE.txt)
 - Přes příkaz/twitch odměnu/dle vašeho triggeru zapíše po vyzvednutí uživatele do souboru (cestu k souboru si určujete vy)
 - Přes příkaz !přihlášení/prihlaseni/... (můžete změnit) to vypíše seznam registrovaných lidí (z dokumentu)
 - Do dokumentu se ukládá twitch jméno a twitch id ve formátu `id,jméno`
@@ -7,13 +7,13 @@
 - Když něco nebude fungovat, tak to do chatu napíše důvod (chybu)... např. že neexistuje soubor, který jste nastavili
 
 
-# [Kód pro vytváření klipů s odesíláním na discord](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Vytvo%C5%99en%C3%AD%20klipu)
+# [Kód pro vytváření klipů s odesíláním na discord](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Vytvo%C5%99en%C3%AD%20klipu.txt)
 - Přes příkaz/odměnu/streamdeck/... vytvoří klip z posledních 30s
 - Při vytváření oznámí do chatu, že vytváří klip a jméno, kdo zadal příkaz pro vytvoření
 - Po vytvoření se odešle do chatu zpráva s odkazem na klip a jménem, kdo ho dal vytvořit. Zároveň se to přes webhook odešle na váš discord
 
 
-# [Kód pro info o zbývajícím cooldownu na příkaz](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info)
+# [Kód pro info o zbývajícím cooldownu na příkaz]([https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info.txt))
 - Přidáte si do triggerů jednotlivé Command cooldowny u kterých chcete, aby to oznamovalo info o cooldownu
 - Formát zpráv:
 `@Jméno, zbývající globální cooldown: 1d 3h 46m 35s`
@@ -21,11 +21,11 @@
 (nepíše to 0d 0m atd... nepíše to jednotky, které jsou 0)
 
 
-# [Kód pro vytvoření předpovědi a vyhodnocení](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/P%C5%99edpov%C4%9B%C4%8F%20Ano-Ne)
+# [Kód pro vytvoření předpovědi a vyhodnocení](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/P%C5%99edpov%C4%9B%C4%8F%20Ano-Ne.txt)
 - Aktuálně nastaveno na "Přežiju?"
 - Možné odpovědi: Ano/Ne
 
-# [Kód pro ovládání Tapo led pásku L900](https://github.com/ErrorCZE/StreamerBot_Scripty/tree/main/L900%20Ovl%C3%A1d%C3%A1n%C3%AD)
+# [Kód pro ovládání Tapo led pásku L900](https://github.com/ErrorCZE/StreamerBot_Scripty/tree/main/L900%20TAPO%20Ovl%C3%A1d%C3%A1n%C3%AD)
 ### POUZE JAKO TWITCH ODMĚNY ZA BODY
 **Případné ovládání přes příkazy atd, si musíte udělat ručně s využitím dostupných akcí napsaných níže**
 
