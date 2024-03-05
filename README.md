@@ -13,7 +13,7 @@
 - Po vytvoření se odešle do chatu zpráva s odkazem na klip a jménem, kdo ho dal vytvořit. Zároveň se to přes webhook odešle na váš discord
 
 
-# [Kód pro info o zbývajícím cooldownu na příkaz]([https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info.txt))
+# [Kód pro info o zbývajícím cooldownu na příkaz](https://github.com/ErrorCZE/StreamerBot_Scripty/blob/main/Cooldown%20info.txt)
 - Přidáte si do triggerů jednotlivé Command cooldowny u kterých chcete, aby to oznamovalo info o cooldownu
 - Formát zpráv:
 `@Jméno, zbývající globální cooldown: 1d 3h 46m 35s`
